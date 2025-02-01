@@ -12,7 +12,7 @@ const Featured = () => {
   const settings = {
     className: "center",
     centerMode: true,
-    dots: true,
+    
     infinite: true,
     centerPadding: "60px",
     autoplay: true,
