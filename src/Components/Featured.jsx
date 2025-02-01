@@ -2,6 +2,10 @@ import React, { useContext } from 'react';
 // import img1 from '../assets/img1.png';
 import { apiData } from './ContextApi';
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css"; 
+
+
 
 const Featured = () => {
 
@@ -20,7 +24,7 @@ const Featured = () => {
 
   // Get data from context
   let data = useContext(apiData);
-  console.log(data);
+ 
 
   return (
     <section>

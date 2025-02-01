@@ -1,7 +1,8 @@
 import Logo from '../assets/Hekto.png'
-import { FaFacebook } from "react-icons/fa6";
+// import { FaFacebook } from "react-icons/fa6";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { PiInstagramLogoFill } from "react-icons/pi";
+import { FaFacebook,  } from "react-icons/fa";
 const Footer = () => {
   return (
   <section>

@@ -6,7 +6,7 @@ import { IoIosHeart } from "react-icons/io";
 import { IoSearchOutline } from "react-icons/io5";
 import {useDispatch} from "react-redux"
 import {addToCard } from '../Slices/CurtSlice';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from "react-toastify";
 
 
 const ShopApiContext = ({perPageByInput}) => {

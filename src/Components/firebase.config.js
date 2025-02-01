@@ -1,8 +1,8 @@
 // Import Firebase functions
 import { initializeApp } from "firebase/app";
-import app from "./Components/firebase.config";
+// import { app } from '.././Components/';
 
-// Firebase Config (তোমার Firebase Console থেকে তথ্য আনো)
+// Firebase Config
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -12,8 +12,7 @@ const firebaseConfig = {
   appId: "YOUR_APP_ID"
 };
 
-// Firebase অ্যাপ ইনিশিয়ালাইজ করো
+// Firebase অ্যাপ ইনিশিয়ালাইজ
 const app = initializeApp(firebaseConfig);
-console.log("Firebase Initialized:", app);
 
 export default app;
